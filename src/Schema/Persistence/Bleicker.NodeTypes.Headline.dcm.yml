@@ -1,0 +1,8 @@
+Bleicker\NodeTypes\Headline:
+  type: entity
+  fields:
+    title:
+      type: string
+    subtitle:
+      type: string
+      nullable: true
