@@ -7,6 +7,7 @@ use Bleicker\Registry\Registry;
 use Doctrine\ORM\Tools\Setup;
 
 Registry::set('doctrine.schema.paths.nodes', __DIR__ . "/../../../vendor/bleicker/nodes/src/Schema/Persistence");
+Registry::set('doctrine.schema.paths.nodetypes', __DIR__ . "/../../../src/Schema/Persistence");
 
 ObjectManager::register(EntityManagerInterface::class, function () {
 	return EntityManager::create(
