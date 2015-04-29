@@ -5,10 +5,10 @@ namespace Bleicker\NodeTypes;
 use Bleicker\Nodes\AbstractPageNode;
 
 /**
- * Class PageNode
+ * Class Page
  *
  * @package Bleicker\NodeTypes
  */
-class PageNode extends AbstractPageNode {
+class Page extends AbstractPageNode {
 
 }

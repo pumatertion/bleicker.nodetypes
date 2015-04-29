@@ -1,0 +1,6 @@
+Bleicker\NodeTypes\Text:
+  type: entity
+  fields:
+    body:
+      type: text
+      nullable: true
