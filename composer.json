@@ -1,5 +1,6 @@
 {
 	"name": "bleicker/nodetypes",
+	"type": "library",
 	"require": {
 		"bleicker/nodes": "@dev"
 	},
