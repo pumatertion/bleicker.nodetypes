@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f55b70323d841ccafdc920aac7afc68a",
+    "hash": "3e715223e08228eb1c30b02e96b074fb",
     "packages": [
         {
             "name": "bleicker/container",
@@ -72,22 +72,23 @@
         },
         {
             "name": "bleicker/nodes",
-            "version": "0.1.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker.nodes.git",
-                "reference": "a4dec6ac7e71d4a016fdba4f10baf14e28b27934"
+                "reference": "58be5783d6673cace9848964b100819357d753be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/a4dec6ac7e71d4a016fdba4f10baf14e28b27934",
-                "reference": "a4dec6ac7e71d4a016fdba4f10baf14e28b27934",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/58be5783d6673cace9848964b100819357d753be",
+                "reference": "58be5783d6673cace9848964b100819357d753be",
                 "shasum": ""
             },
             "require": {
                 "bleicker/objectmanager": "~1.0",
                 "bleicker/persistence": "~1.0",
-                "bleicker/registry": "~1.0"
+                "bleicker/registry": "~1.0",
+                "bleicker/translation": "~0.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.6"
@@ -105,7 +106,7 @@
                     "email": "carsten@bleicker.de"
                 }
             ],
-            "time": "2015-04-30 05:36:48"
+            "time": "2015-04-30 13:03:34"
         },
         {
             "name": "bleicker/objectmanager",
@@ -210,6 +211,42 @@
                 }
             ],
             "time": "2015-04-26 14:06:49"
+        },
+        {
+            "name": "bleicker/translation",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pumatertion/bleicker.translation.git",
+                "reference": "78c97f33a11fc035ad16c9081cde4c53b35c2a98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.translation/zipball/78c97f33a11fc035ad16c9081cde4c53b35c2a98",
+                "reference": "78c97f33a11fc035ad16c9081cde4c53b35c2a98",
+                "shasum": ""
+            },
+            "require": {
+                "bleicker/exception": "~1.0",
+                "doctrine/collections": "~1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bleicker\\Translation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Carsten Bleicker",
+                    "email": "carsten@bleicker.de"
+                }
+            ],
+            "time": "2015-04-30 12:59:28"
         },
         {
             "name": "doctrine/annotations",
