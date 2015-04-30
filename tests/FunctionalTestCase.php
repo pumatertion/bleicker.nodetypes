@@ -1,7 +1,6 @@
 <?php
 namespace Tests\Bleicker\NodeTypes;
 
-use Bleicker\Nodes\Service\ContentNodeService;
 use Bleicker\ObjectManager\ObjectManager;
 use Bleicker\Persistence\EntityManagerInterface;
 
@@ -17,11 +16,6 @@ abstract class FunctionalTestCase extends BaseTestCase {
 	 */
 	protected $entityManager;
 
-	/**
-	 * @var ContentNodeService
-	 */
-	protected $nodeService;
-
 	protected function setUp() {
 		parent::setUp();
 		$this->initDB();
@@ -31,6 +25,5 @@ abstract class FunctionalTestCase extends BaseTestCase {
 		include_once __DIR__ . '/Functional/Configuration/Secrets.php';
 		include_once __DIR__ . '/Functional/Configuration/Persistence.php';
 		$this->entityManager = ObjectManager::get(EntityManagerInterface::class);
-		$this->nodeService = new ContentNodeService();
 	}
 }

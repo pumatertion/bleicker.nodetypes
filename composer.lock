@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38a95e5e525c895b3a6c6c658bf9cb95",
+    "hash": "f55b70323d841ccafdc920aac7afc68a",
     "packages": [
         {
             "name": "bleicker/container",
@@ -72,16 +72,16 @@
         },
         {
             "name": "bleicker/nodes",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker.nodes.git",
-                "reference": "51734b0417614a4230d1d360a0efcdf7d97b3a5f"
+                "reference": "a4dec6ac7e71d4a016fdba4f10baf14e28b27934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/51734b0417614a4230d1d360a0efcdf7d97b3a5f",
-                "reference": "51734b0417614a4230d1d360a0efcdf7d97b3a5f",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/a4dec6ac7e71d4a016fdba4f10baf14e28b27934",
+                "reference": "a4dec6ac7e71d4a016fdba4f10baf14e28b27934",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                     "email": "carsten@bleicker.de"
                 }
             ],
-            "time": "2015-04-29 06:56:47"
+            "time": "2015-04-30 05:36:48"
         },
         {
             "name": "bleicker/objectmanager",
@@ -1278,16 +1278,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.6.5",
+            "version": "4.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1c54dd1d9a782d7c8715bb3604cde7b6e23c2614"
+                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1c54dd1d9a782d7c8715bb3604cde7b6e23c2614",
-                "reference": "1c54dd1d9a782d7c8715bb3604cde7b6e23c2614",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3afe303d873a4d64c62ef84de491b97b006fbdac",
+                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac",
                 "shasum": ""
             },
             "require": {
@@ -1346,7 +1346,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-29 05:04:43"
+            "time": "2015-04-29 15:18:52"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1777,9 +1777,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "bleicker/nodes": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
