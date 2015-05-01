@@ -72,16 +72,16 @@
         },
         {
             "name": "bleicker/nodes",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker.nodes.git",
-                "reference": "043a73f0943fb7193aeef782760cef9ad46a3a49"
+                "reference": "26548afa9c0f8307e8e7551c860a87bab91ff764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/043a73f0943fb7193aeef782760cef9ad46a3a49",
-                "reference": "043a73f0943fb7193aeef782760cef9ad46a3a49",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/26548afa9c0f8307e8e7551c860a87bab91ff764",
+                "reference": "26548afa9c0f8307e8e7551c860a87bab91ff764",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                     "email": "carsten@bleicker.de"
                 }
             ],
-            "time": "2015-05-01 13:31:30"
+            "time": "2015-05-01 15:45:33"
         },
         {
             "name": "bleicker/objectmanager",
