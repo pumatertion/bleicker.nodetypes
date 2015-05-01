@@ -2,7 +2,7 @@
 	"name": "bleicker/nodetypes",
 	"type": "library",
 	"require": {
-		"bleicker/nodes": "0.3.*"
+		"bleicker/nodes": "0.5.*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.6.*"
