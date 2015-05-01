@@ -1,3 +1,3 @@
 /vendor
 /db.sqlite
-/tests/Functional/Configuration/Secrets.php
+/tests/Functional/Configuration/Secrets.local.php
