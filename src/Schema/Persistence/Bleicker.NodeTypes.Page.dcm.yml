@@ -1,3 +1,6 @@
 Bleicker\NodeTypes\Page:
   type: entity
   table: tests_bleicker_nodetypes_page
+  fields:
+    title:
+      type: string
