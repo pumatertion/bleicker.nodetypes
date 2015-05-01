@@ -1,2 +1,3 @@
 Bleicker\NodeTypes\Section:
   type: entity
+  table: tests_bleicker_nodetypes_section
