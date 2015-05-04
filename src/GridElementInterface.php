@@ -2,11 +2,11 @@
 namespace Bleicker\NodeTypes;
 
 /**
- * Class Column
+ * Class GridElement
  *
  * @package Bleicker\NodeTypes
  */
-interface ColumnInterface {
+interface GridElementInterface {
 
 	/**
 	 * @return int

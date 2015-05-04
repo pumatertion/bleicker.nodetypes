@@ -5,10 +5,10 @@ namespace Bleicker\NodeTypes;
 use Bleicker\Nodes\AbstractContentNode;
 
 /**
- * Class MultiColumn
+ * Class Grid
  *
  * @package Bleicker\NodeTypes
  */
-class MultiColumn extends AbstractContentNode implements MultiColumnInterface {
+class Grid extends AbstractContentNode implements GridInterface {
 
 }

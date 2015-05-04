@@ -2,10 +2,10 @@
 namespace Bleicker\NodeTypes;
 
 /**
- * Class MultiColumn
+ * Class Grid
  *
  * @package Bleicker\NodeTypes
  */
-interface MultiColumnInterface {
+interface GridInterface {
 
 }
