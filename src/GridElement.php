@@ -5,11 +5,11 @@ namespace Bleicker\NodeTypes;
 use Bleicker\Nodes\AbstractContentNode;
 
 /**
- * Class Column
+ * Class GridElement
  *
  * @package Bleicker\NodeTypes
  */
-class Column extends AbstractContentNode {
+class GridElement extends AbstractContentNode implements GridElementInterface {
 
 	/**
 	 * @var integer

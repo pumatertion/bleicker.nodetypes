@@ -9,6 +9,6 @@ use Bleicker\Nodes\AbstractPageNode;
  *
  * @package Bleicker\NodeTypes
  */
-class Site extends AbstractPageNode {
+class Site extends AbstractPageNode implements SiteInterface {
 
 }
