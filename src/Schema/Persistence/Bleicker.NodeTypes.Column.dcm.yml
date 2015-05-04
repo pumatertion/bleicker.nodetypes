@@ -1,3 +1,10 @@
 Bleicker\NodeTypes\Column:
   type: entity
   table: tests_bleicker_nodetypes_column
+  fields:
+    colspan:
+      type: integer
+      nullable: true
+    offset:
+      type: integer
+      nullable: true
