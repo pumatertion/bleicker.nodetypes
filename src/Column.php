@@ -9,7 +9,7 @@ use Bleicker\Nodes\AbstractContentNode;
  *
  * @package Bleicker\NodeTypes
  */
-class Column extends AbstractContentNode {
+class Column extends AbstractContentNode implements ColumnInterface {
 
 	/**
 	 * @var integer

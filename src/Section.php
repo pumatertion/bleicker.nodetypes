@@ -9,6 +9,6 @@ use Bleicker\Nodes\AbstractContentNode;
  *
  * @package Bleicker\NodeTypes
  */
-class Section extends AbstractContentNode {
+class Section extends AbstractContentNode implements SectionInterface {
 
 }

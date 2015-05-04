@@ -9,7 +9,7 @@ use Bleicker\Nodes\AbstractContentNode;
  *
  * @package Bleicker\NodeTypes
  */
-class Text extends AbstractContentNode {
+class Text extends AbstractContentNode implements TextInterface {
 
 	/**
 	 * @var string

@@ -9,6 +9,6 @@ use Bleicker\Nodes\AbstractContentNode;
  *
  * @package Bleicker\NodeTypes
  */
-class MultiColumn extends AbstractContentNode {
+class MultiColumn extends AbstractContentNode implements MultiColumnInterface {
 
 }
