@@ -2,13 +2,13 @@
 
 namespace Bleicker\NodeTypes;
 
-use Bleicker\Nodes\AbstractPageNode;
+use Bleicker\Nodes\AbstractSiteNode;
 
 /**
  * Class Site
  *
  * @package Bleicker\NodeTypes
  */
-class Site extends AbstractPageNode implements SiteInterface {
+class Site extends AbstractSiteNode implements SiteInterface {
 
 }
