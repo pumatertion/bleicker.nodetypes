@@ -1,6 +1,6 @@
 Bleicker\NodeTypes\Headline:
   type: entity
-  table: tests_bleicker_nodetypes_headline
+  table: bleicker_nodetypes_headline
   fields:
     title:
       type: string

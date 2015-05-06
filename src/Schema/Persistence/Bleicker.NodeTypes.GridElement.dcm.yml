@@ -1,6 +1,6 @@
 Bleicker\NodeTypes\GridElement:
   type: entity
-  table: tests_bleicker_nodetypes_gridelement
+  table: bleicker_nodetypes_gridelement
   fields:
     colspan:
       type: integer
