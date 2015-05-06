@@ -1,6 +1,6 @@
 Bleicker\NodeTypes\Text:
   type: entity
-  table: tests_bleicker_nodetypes_text
+  table: bleicker_nodetypes_text
   fields:
     body:
       type: text
