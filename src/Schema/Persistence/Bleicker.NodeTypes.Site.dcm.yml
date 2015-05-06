@@ -1,6 +1,6 @@
 Bleicker\NodeTypes\Site:
   type: entity
-  table: tests_bleicker_nodetypes_site
+  table: bleicker_nodetypes_site
   fields:
     title:
       type: string
