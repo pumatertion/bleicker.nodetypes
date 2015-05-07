@@ -75,16 +75,16 @@
         },
         {
             "name": "bleicker/nodes",
-            "version": "0.12.0",
+            "version": "0.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker.nodes.git",
-                "reference": "b614d5b4228fd3d4c74fec522cf4dda9a7b92330"
+                "reference": "179a083be508e7fb55f5b2f7127cc84bfede6251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/b614d5b4228fd3d4c74fec522cf4dda9a7b92330",
-                "reference": "b614d5b4228fd3d4c74fec522cf4dda9a7b92330",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.nodes/zipball/179a083be508e7fb55f5b2f7127cc84bfede6251",
+                "reference": "179a083be508e7fb55f5b2f7127cc84bfede6251",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
                     "email": "carsten@bleicker.de"
                 }
             ],
-            "time": "2015-05-07 15:49:04"
+            "time": "2015-05-07 20:49:03"
         },
         {
             "name": "bleicker/objectmanager",
@@ -218,16 +218,16 @@
         },
         {
             "name": "bleicker/translation",
-            "version": "0.2.2",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker.translation.git",
-                "reference": "64eca9b1afc48db4dfac0b4dad21c550969bfd06"
+                "reference": "5fcc3396a2c1a0de9528574d4affd971ec7cc7df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker.translation/zipball/64eca9b1afc48db4dfac0b4dad21c550969bfd06",
-                "reference": "64eca9b1afc48db4dfac0b4dad21c550969bfd06",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.translation/zipball/5fcc3396a2c1a0de9528574d4affd971ec7cc7df",
+                "reference": "5fcc3396a2c1a0de9528574d4affd971ec7cc7df",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
                     "email": "carsten@bleicker.de"
                 }
             ],
-            "time": "2015-05-07 16:38:32"
+            "time": "2015-05-07 20:35:29"
         },
         {
             "name": "doctrine/annotations",
