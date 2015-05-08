@@ -1,3 +1,4 @@
 /vendor
 /db.sqlite
+/composer.lock
 /tests/Functional/Configuration/Secrets.local.php
