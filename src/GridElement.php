@@ -14,12 +14,12 @@ class GridElement extends AbstractContentNode implements GridElementInterface {
 	/**
 	 * @var integer
 	 */
-	protected $colspan;
+	protected $colspan = 6;
 
 	/**
 	 * @var integer
 	 */
-	protected $offset;
+	protected $offset = 0;
 
 	/**
 	 * @param int $colspan
